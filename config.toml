@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://happybirthdaydarshi.netlify.app/"
 title = "Happy Birthday!"
 theme = "hugo-nederburg-theme"
 languageCode = "en-us"
@@ -53,8 +53,8 @@ paginate = 5 #frontpage pagination
 
 # this will also be in author bio if there is no writer.
   [params.social]
-  facebook      = "full Social profile url in facebook"
+  facebook      = "https://www.facebook.com/darshi.shah.5015"
   email         = "email@example.com"
-  instagram     = "full profile url in instagram"
+  instagram     = "https://instagram.com/darshi_2804?igshid=74scu5shnhnl"
   
 
