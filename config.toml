@@ -1,0 +1,60 @@
+baseurl = "https://example.org/"
+title = "Happy Birthday!"
+theme = "hugo-nederburg-theme"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+
+[privacy]
+  # Google Analytics privacy settings - https://gohugo.io/about/hugo-and-gdpr/index.html#googleanalytics
+  [privacy.googleAnalytics]
+    # set to true to disable service 
+    disable = false
+    # set to true to meet General Data Protection Regulation (GDPR)
+    anonymizeIP = false
+    respectDoNotTrack = false
+    useSessionStorage = false
+
+[params]
+  # Unmark to use post folder for images. Default is static folder.
+  #usepostimgfolder = true
+  slogan = "<3"
+  description = "Its your birthday! Have a great one cutie :D" # meta description
+  # You need to set author to have an author bio. If you have a writer in the markdown file it will override this.
+  author = "Vrushti and Rohan"
+  authorLink = ""
+  bio = [
+    "We love you, Darshi"
+  ]
+  copyright = [
+    "&copy; 2020 Darshi Shah",
+    "A Theme by Rohan & Vrushti",
+    "With Love"
+  ]
+
+
+ 
+  # Nav links in the side bar
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "BIRTHDAY MESSAGE"
+  url = "about/"
+  weight = 2
+
+  
+
+# this will also be in author bio if there is no writer.
+  [params.social]
+  facebook      = "full Social profile url in facebook"
+  email         = "email@example.com"
+  instagram     = "full profile url in instagram"
+  
+
